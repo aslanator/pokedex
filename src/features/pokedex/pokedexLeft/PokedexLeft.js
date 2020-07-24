@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import {PokemonScreen} from "./PokemonScreen/PokemonScreen";
+import PokemonScreen from "./PokemonScreen/PokemonScreen";
 
-export function PokedexLeft() {
+export default function PokedexLeft() {
 
 
     return (

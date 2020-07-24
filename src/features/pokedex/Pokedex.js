@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import {PokedexLeft} from "./pokedexLeft/PokedexLeft";
-import {PokedexRight} from "./pokedexRight/PokedexRight";
+import PokedexLeft from "./pokedexLeft/PokedexLeft";
+import PokedexRight from "./pokedexRight/PokedexRight";
 import {useDispatch} from "react-redux";
 import {loadPokemons} from './PokedexApi';
 
